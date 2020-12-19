@@ -1,0 +1,42 @@
+# fluid_styled_content
+lib.contentElement.settings.media.popup {
+	JSwindow = 0
+	crop >
+	#height >
+	#width >
+	directImageLink = 1
+	linkParams.ATagParams.dataWrap = class="skjsonlylightbox" data-title="{file:current:title}" data-description="{file:current:description}" data-gallery="lightbox-{file:current:uid_foreign}"
+}
+
+
+["{$plugin.skjsonlylightbox.usefortxnews}" == "1"]
+    # tx_news
+    plugin.tx_news.settings.detail.media.image.lightbox {
+        enabled = 1
+        class = skjsonlylightbox
+    }
+[END]
+
+
+
+page.includeCSS {
+	skjsonlylightbox = EXT:skjsonlylightbox/Resources/Public/glightbox-3.0.6/dist/css/glightbox.min.css
+	skjsonlylightbox.media = screen
+}
+
+page.includeJSFooter {
+	skjsonlylightbox = EXT:skjsonlylightbox/Resources/Public/glightbox-3.0.6/dist/js/glightbox.min.js
+}
+
+# Lightbox settings from jn_lighterbox
+#page.jsFooterInline.957 = COA
+#page.jsFooterInline.957.wrap (
+#	lightbox.option({
+#	|
+#	});
+#)
+
+page.jsFooterInline.1957 = COA
+page.jsFooterInline.1957.wrap (
+    var skjsonlylightbox = GLightbox({selector: '.skjsonlylightbox',touchNavigation: true,loop: true});
+)

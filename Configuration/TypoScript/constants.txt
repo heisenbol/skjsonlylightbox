@@ -1,0 +1,5 @@
+# customcategory=skjsonlylightbox=skjsonlylightbox settings
+plugin.skjsonlylightbox {
+	# cat=skjsonlylightbox//01; type=boolean; label= Include tx_news Media Partial?: Set this to on to enable the lightbox for tx_news.
+	usefortxnews = 1
+}
