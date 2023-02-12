@@ -20,21 +20,13 @@ lib.contentElement.settings.media.popup {
 
 
 page.includeCSS {
-	skjsonlylightbox = EXT:skjsonlylightbox/Resources/Public/glightbox-3.0.6/dist/css/glightbox.min.css
+	skjsonlylightbox = EXT:skjsonlylightbox/Resources/Public/glightbox-3.2.0/dist/css/glightbox.min.css
 	skjsonlylightbox.media = screen
 }
 
 page.includeJSFooter {
-	skjsonlylightbox = EXT:skjsonlylightbox/Resources/Public/glightbox-3.0.6/dist/js/glightbox.min.js
+	skjsonlylightbox = EXT:skjsonlylightbox/Resources/Public/glightbox-3.2.0/dist/js/glightbox.min.js
 }
-
-# Lightbox settings from jn_lighterbox
-#page.jsFooterInline.957 = COA
-#page.jsFooterInline.957.wrap (
-#	lightbox.option({
-#	|
-#	});
-#)
 
 page.jsFooterInline.1957 = COA
 page.jsFooterInline.1957.wrap (
