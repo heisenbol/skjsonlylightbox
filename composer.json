@@ -1,0 +1,24 @@
+{
+  "name": "skaras/skjsonlylightbox",
+  "type": "typo3-cms-extension",
+  "description": "TYPO3 extension providing the pure Javascript GLightbox for text with image and tx_news.",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "typo3/cms-core": "^12.4"
+  },
+  "authors": [
+    {
+      "name": "Stefanos Karasavvidis",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/sksksksk/skjsonlylightbox/issues",
+    "source": "https://github.com/joppnet/skjsonlylightbox"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "skjsonlylightbox"
+    }
+  }
+}
