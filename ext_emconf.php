@@ -8,11 +8,11 @@ $EM_CONF[$_EXTKEY] = array(
   'state' => 'stable',
   'uploadfolder' => false,
   'createDirs' => '',
-  'version' => '0.4.2',
+  'version' => '0.5.0',
   'constraints' => [
     'depends' => [
-        'typo3' => '12.4.0-13.3.99',
-        'fluid_styled_content' => '12.4.0-13.3.99'
+        'typo3' => '12.4.0-13.4.99',
+        'fluid_styled_content' => '12.4.0-13.4.99'
     ],
     'conflicts' => [],
     'suggests' => []
