@@ -2,5 +2,5 @@
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
     'skjsonlylightbox',
     'Configuration/TypoScript',
-    'JS only Lightbox'
+    'JS only Lightbox - Main TypoScript'
 );
